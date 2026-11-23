@@ -126,7 +126,7 @@ jobs:
           fi
           { echo "release=$release"; echo "tag=$tag"; echo "version=$version"; } >> "$GITHUB_OUTPUT"
 
-      - uses: azure/setup-helm@v5.0.0
+      - uses: azure/setup-helm@v5.1.0
         with:
           version: v3.19.0
 
